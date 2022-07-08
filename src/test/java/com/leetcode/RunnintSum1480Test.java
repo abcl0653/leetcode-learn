@@ -1,7 +1,6 @@
 package com.leetcode;
 import static org.assertj.core.api.Assertions.*;
 
-import javax.naming.InitialContext;
 
 import org.junit.Test;
 

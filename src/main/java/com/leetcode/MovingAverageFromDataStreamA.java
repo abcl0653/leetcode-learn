@@ -3,9 +3,6 @@ package com.leetcode;
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import javax.management.Query;
-import javax.swing.WindowConstants;
-
 public class MovingAverageFromDataStreamA {
 
     private int size = 0;
