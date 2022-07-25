@@ -7,16 +7,19 @@ public class HeightChecker1051 {
         int[] original = Arrays.copyOf(heights, heights.length);
         int swap;
         int counter = 0;
+
+        int j;
         for (int i = 0; i < heights.length; i++) {
-            for (int j = i; j < original.length - 1; j++) {
+            for (j = 0; j < original.length - 1 - i; j++) {
                 if (heights[j] > heights[j+1]) {
                     //swap(j, j+1);
                     swap = heights[j];
                     heights[j] = heights[j+1];
                     heights[j+1] = swap;
                 }
+                
             }
-            if (original[i] != heights[i]) {
+            if (original[j] != heights[j]) {
                 counter++;
             }
         }

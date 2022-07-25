@@ -25,7 +25,17 @@ public class HeightChecker1051Test {
     public void simpleCase3() {
         HeightChecker1051 h = new HeightChecker1051();
         assertThat(
-                h.heightChecker(new int[] { 1, 2, 3, 4, 5 })).isEqualTo(0);
+                h.heightChecker(new int[] { 1, 2, 3, 4, 5 })).isZero();
+    }
+
+
+    @Test
+    public void simpleCase4() {
+        HeightChecker1051 h = new HeightChecker1051();
+
+        assertThat(
+            h.heightChecker(new int[]{7,3,5,5,1,2,2,3,9,2,2,7,1,7,3,2,3,6,6,7})).isEqualTo(17);
+        
     }
 
 }
