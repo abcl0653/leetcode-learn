@@ -34,5 +34,8 @@ public class MiddleOfLinkedList876Test {
             head = head.next;
         }
         System.out.println("List Ended");
+
+
+        assertThat(1-0).isEqualTo(1);
     }
 }

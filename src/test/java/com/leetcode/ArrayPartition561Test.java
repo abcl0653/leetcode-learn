@@ -9,7 +9,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 public class ArrayPartition561Test {
@@ -46,8 +45,8 @@ public class ArrayPartition561Test {
         }
 
         int b = a.arrayPairSum(big);
+        assertThat(b).isEqualTo(236926);
 
-        assertThat(1).isEqualTo(1);
     }
 
 }

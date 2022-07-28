@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 public class ArrayPartition561 {
     public int arrayPairSum(int[] nums) {
-        int swap;
-        int j = 0;
         int result = 0;
         // for (int i = 0; i < nums.length; i++) {
         // for (j = 0; j < nums.length - 1 - i; j++) {
