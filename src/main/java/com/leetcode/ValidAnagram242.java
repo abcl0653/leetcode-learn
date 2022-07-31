@@ -16,6 +16,9 @@ public class ValidAnagram242 {
             sMap.computeIfPresent(sArray[i], (k, v) -> v + 1);
             sMap.putIfAbsent(sArray[i], 1);
 
+        }
+
+        for (int i = 0; i < tArray.length; i++) {
             tMap.computeIfPresent(tArray[i], (k, v) -> v + 1);
             tMap.putIfAbsent(tArray[i], 1);
         }
